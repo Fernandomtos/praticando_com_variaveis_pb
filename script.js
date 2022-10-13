@@ -21,10 +21,10 @@
 
 // Exercício 3
 
-// let temperaturaFahrenheit = parseFloat(prompt("Qual a temperatura em graus Fahrenheit para conversão?"));
-// let temperaturaCelsius = ((temperaturaFahrenheit-32)*5)/9;
+let temperaturaFahrenheit = parseFloat(prompt("Qual a temperatura em graus Fahrenheit para conversão?"));
+let temperaturaCelsius = ((temperaturaFahrenheit-32)*5)/9;
 
-// alert(`O valor ${temperaturaFahrenheit}°c em Fahrenheit é ${temperaturaCelsius.toFixed()}.`);
+alert(`O valor ${temperaturaFahrenheit}°c em Fahrenheit é ${temperaturaCelsius.toFixed(5)}.`);
 
 // ####################################
 
